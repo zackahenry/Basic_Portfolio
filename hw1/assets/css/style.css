@@ -9,7 +9,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    color: 
+    color: black;
 }
 
 li {
@@ -32,10 +32,13 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+     border: 1.3px solid;
+    border-color: silver;
 }
 
-li a:hover:not(.active) {
+li a:hover:not(.homeBtn) {
     background-color: #4aaaa5;
+    color: black;
 }
 
 p {
@@ -49,6 +52,11 @@ h1 {
 
 .homeBtn {
     background-color: #4aaaa5;
+}
+
+.homeBtn:hover {
+    background-color: white;
+    color: black;
 }
 
 /* About Page Content */
