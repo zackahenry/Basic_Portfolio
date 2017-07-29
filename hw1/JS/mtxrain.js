@@ -112,4 +112,5 @@ updateAll();
 // Music 
 window.onload = function() {
     document.getElementById("my_audio").play();
+    // document.getElementById("aboutContent").className = "active";
 }

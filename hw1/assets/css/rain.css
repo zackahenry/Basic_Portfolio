@@ -69,24 +69,28 @@ h2 {
   text-align: center;
   font-family: mandalorimport;
   font-size: 38px;
+  transition: font-family 100s;
 }
 
 h2:hover {
   text-align: center;
-  transition: width 8s ease-in 1s;
   font-family: STARWARSimport;
 }
 
-.aboutContent {
+#aboutContent {
     background-color: #DCDCDC;
     border: 1.3px solid;
     border-color: #A9A9A9;
     padding: 25px;  
     position: absolute;
     margin-top: 9%;
-    margin-left: 32%
+    margin-left: 32%;
+    opacity: 1;
 }
-
+#aboutContent.active {
+  opacity: 1;
+  transition: opacity 5s;
+}
 .jango-1 {
     padding: 20px;
     height: 100px;
